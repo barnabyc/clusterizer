@@ -1,0 +1,20 @@
+{
+	"name" : "clusterizer",
+	"main" : "./lib",
+  "repository": {
+    "type" : "git",
+    "url"  : "https://github.com/barnabyc/clusterizer.git"
+  },
+  "dependencies" : {
+    "commander" : "1.0.x",
+    "mdns" : "*",
+    "zmq" : ">= 2.0.10"
+  },
+  "devDependencies": {
+    "jasmine-node" : "1.0.x"
+  },
+  "bundleDependencies": [
+
+  ],
+  "engine": "0.8.x"
+}
